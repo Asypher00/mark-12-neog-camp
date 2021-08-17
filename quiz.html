@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>triangle quiz</title>
+    <link href="isItATriangle.css" type="text/css" rel="stylesheet" >
+
+</head>
+
+<body>
+    <div style=" text-align: left ;">
+        <span><a style = "color : white;" href="isItATriangle.html">Check for a Triangle</a></span>
+        <span><a style = "color : white;" href="hypotenuse.html">Calculate Hypotenuse</a></span>
+        <span><a style = "color : white;" href="quiz.html">Play Quiz</a></span>
+        <span><a style = "color : white;" href="area.html">Calculate area</a></span>
+        <div id="container"></div>
+    <div class="container">
+        <h1>Triangle Quiz</h1>
+        <form class="quiz-form">
+            <div class="question-container">
+                <p>What is the third angle for the triangle where angle1=45 , angle2=75? </p>
+                <label>
+                    <input type="radio" name="question1" value="45">45
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="60">60
+                </label>
+                <label>
+                    <input type="radio" name="question1" value="35">35
+                </label>
+            </div>
+
+            <div class="question-container">
+                <p>If a Triangle has an angle of 90 degree, what is it called? </p>
+                <label>
+                    <input type="radio" name="question2" value="acute angled triangle">acute angled triangle
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="obtuse angled triangle">obtuse angled triangle
+                </label>
+                <label>
+                    <input type="radio" name="question2" value="right angled triangle"> right angled triangle
+                </label>
+                </div>
+                <div class="question-container">
+                    <p>The sum of any two sides should be </p>
+                    <label>
+                        <input type="radio" name="question3" value="greater than the third side">greater than the third
+                        side
+                    </label>
+                    <label>
+                        <input type="radio" name="question3" value="equal to the third side">
+                        equal to the third side
+                        <label>
+                            <input type="radio" name="question3" value="smaller than the third side"> smaller than the
+                            third side
+                        </label>
+                </div>
+                </form>
+            <button id=submit-button>Submit Answers</button>
+            <div id="output"></div>
+        
+    </div>
+
+</body>
+<script src="quiz.js"></script>
+</html>
